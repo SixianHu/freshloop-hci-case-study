@@ -1,0 +1,88 @@
+:root{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#243d30;background:#e9eee7;font-synthesis:none}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer}button:disabled{opacity:.4;cursor:not-allowed}.workspace{min-height:100vh;display:grid;place-content:center;justify-items:center;gap:16px;padding:30px}.phone{height:844px;width:390px;max-width:100vw;background:#fbfcf8;border:1px solid #dfe6db;border-radius:32px;box-shadow:0 26px 70px #1e38202d;overflow:hidden;position:relative;display:flex;flex-direction:column}.status{height:48px;flex-shrink:0;padding:16px 28px 7px;display:flex;justify-content:space-between;font-size:12px;font-weight:700;color:#1a3526}.screen{padding:14px 24px 28px;flex:1;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#d4ded1 transparent}.nav{height:78px;flex-shrink:0;display:flex;background:#fff;border-top:1px solid #e8eee4;justify-content:space-around;padding:9px 8px 13px}.nav button{flex:1;border:0;background:transparent;color:#82918a;display:grid;justify-items:center;align-content:center;gap:4px;font-size:11px}.nav button .symbol{font-size:24px;line-height:27px}.nav button.active{color:#267d56;font-weight:700}.desktop-caption{font-size:12px;color:#657868}.desktop-caption span{margin:0 8px}h1{font-size:28px;letter-spacing:-.8px;line-height:1.16;margin:12px 0 10px;color:#1c3e2c;font-weight:780}h2{font-size:18px;margin:24px 0 12px}p{line-height:1.5}.subtitle{color:#829087;font-size:13px;margin:0 0 22px}.muted{color:#86948a;font-size:12px}.back{background:none;border:0;color:#407b5b;padding:0 0 10px;text-align:left;font-size:13px;font-weight:650}.topline{display:flex;align-items:flex-start;justify-content:space-between}.bell{border:0;background:#e7f1e7;color:#39865f;border-radius:100%;height:39px;width:39px;font-size:20px}.notice{width:100%;background:#ecf6e8;border:1px solid #d2e9ce;color:#28533b;border-radius:15px;padding:15px 16px;margin:18px 0 13px;display:flex;flex-direction:column;gap:7px;text-align:left}.notice strong{font-size:14px}.notice span{font-size:12px;line-height:1.5;color:#5c7965}.notice.warning{background:#fff8e7;border-color:#f7e6b6;color:#745723}.notice.warning span{color:#8d7b58}.primary,.secondary{width:100%;min-height:52px;border-radius:12px;padding:13px 15px;font-size:14px;font-weight:750;display:flex;justify-content:center;align-items:center;gap:8px;margin:12px 0;border:1px solid transparent}.primary{background:#2d865e;color:#fff;box-shadow:0 4px 9px #39895a18}.primary:active{background:#226945}.secondary{background:#fff;border-color:#c9decb;color:#336a4c}.textbutton{border:0;background:none;color:#2c805a;font-size:13px;font-weight:650;padding:12px 0}.filters{display:flex;gap:9px;margin:17px 0 15px}.filters button{flex:1;border:1px solid #d7e5d9;background:#fff;padding:12px 4px;border-radius:12px;color:#597361;font-size:13px}.filters button.active{background:#2f855c;color:white;border-color:#2f855c;font-weight:700}.sortline{font-size:12px;color:#95a097;margin-bottom:12px}.food{display:flex;align-items:center;gap:12px;border:1px solid #e9eee4;background:#fff;border-radius:15px;padding:13px;margin:10px 0;min-height:84px;box-shadow:0 3px 12px #36563a08}.food-icon{height:46px;width:46px;border-radius:12px;background:#edf6e7;display:grid;place-items:center;font-size:24px;flex:none}.food-body{flex:1;min-width:0;display:grid;gap:5px}.food-body strong{font-size:14px;color:#284a33}.food-body span{font-size:12px;color:#7c8c7f}.food-body small{font-size:11px;color:#568865}.food-action{border:0;background:#f0f6ed;color:#428463;border-radius:10px;min-height:32px;min-width:32px;padding:7px}.card{background:white;border:1px solid #e5ede3;border-radius:15px;padding:17px;margin:12px 0;box-shadow:0 3px 10px #284b3210}.card h3{margin:0 0 8px;font-size:15px}.card p{margin:4px 0;color:#859186;font-size:12px}.field{display:grid;gap:9px;font-weight:650;font-size:13px;margin:19px 0}.field input,.field select,.text-input{border:1px solid #dce8d9;border-radius:11px;min-height:49px;padding:12px;background:white;color:#24402d;width:100%;outline-color:#55a879}.field small{color:#8d988d;font-weight:400}.form-row{display:flex;gap:10px}.form-row>*{flex:1;min-width:0}.receipt-camera{height:326px;border-radius:17px;background:linear-gradient(140deg,#234d39,#193c2e);display:grid;place-items:center;padding:22px;position:relative;margin:16px 0}.receipt-paper{background:#fffef9;width:224px;min-height:202px;box-shadow:0 12px 38px #0004;transform:rotate(-2deg);padding:19px;color:#444;display:grid;align-content:start;gap:13px;font-family:monospace;font-size:11px}.receipt-paper h3{margin:0;font-size:17px;letter-spacing:1px}.receipt-paper div{display:flex;justify-content:space-between}.receipt-paper hr{border:0;border-top:1px dashed #aaa;width:100%}.helper{font-size:12px;color:#788879;line-height:1.6}.pill{display:inline-block;background:#e1f0df;color:#437451;border-radius:20px;padding:8px 12px;font-size:12px;font-weight:750}.recipe-art{height:126px;border-radius:15px;background:linear-gradient(135deg,#e7f3de,#fcf6e4);display:grid;place-items:center;font-size:66px;margin-bottom:12px}.recipe-art.large{height:190px;font-size:95px}.recipe-card{width:100%;text-align:left;border:1px solid #e5ece2;border-radius:16px;background:#fff;margin:12px 0;padding:12px}.recipe-card .recipe-art{margin-bottom:13px}.recipe-card strong{font-size:15px}.recipe-card p{font-size:12px;color:#7b8d7e;margin:8px 0}.recipe-card small{color:#45835a}.ingredient,.shopping-item{display:flex;align-items:center;gap:10px;padding:13px;background:#fff;border:1px solid #e5eee3;border-radius:11px;margin:8px 0;font-size:13px}.ingredient .tick{color:#378a58}.shopping-item label{flex:1;display:flex;gap:12px;align-items:center}.shopping-item input{accent-color:#2e865c}.shopping-item.done label span{text-decoration:line-through;color:#929b91}.shopping-item .delete{background:none;border:0;color:#8a9b8b}.input-row{display:flex;gap:8px}.input-row input{flex:1;min-width:0}.input-row button{background:#2e855e;border:0;color:white;border-radius:12px;width:48px;font-size:22px}.login-logo{text-align:center;font-size:24px;font-weight:800;color:#267d56;margin:11px 0 14px}.login-art{height:200px;background:linear-gradient(140deg,#dbefcb,#f5eed1);border-radius:22px;display:grid;place-items:center;font-size:92px;margin:8px 0 22px}.login-footer{text-align:center;color:#859587;font-size:12px}.recipe-steps{padding-left:22px;font-size:13px;color:#5a725d;line-height:2}.empty{color:#8b998d;text-align:center;padding:36px 12px;font-size:13px}.scan-choice{border:1px solid #dce9d8;padding:20px;border-radius:15px;margin:12px 0;background:#fff;text-align:left;width:100%}.scan-choice strong{display:block;color:#2d7855;margin:5px 0}.scan-choice span{font-size:12px;color:#879188}.hero-success{display:grid;place-items:center;height:145px;background:#eaf5e4;border-radius:20px;font-size:64px;margin:18px 0}.actions-inline{display:flex;gap:10px}.actions-inline button{flex:1}#toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:#214d35;color:#fff;padding:12px 20px;border-radius:15px;box-shadow:0 12px 28px #0002;font-size:13px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:4;max-width:90vw;text-align:center}#toast.show{opacity:1}@media(max-width:500px){.workspace{padding:0;display:block}.phone{width:100%;height:100dvh;border:0;border-radius:0;box-shadow:none}.desktop-caption{display:none}}
+
+/* Separate camera capture and photo upload flows */
+.camera-preview{height:390px;width:100%;border-radius:18px;background:linear-gradient(145deg,#214d39,#102f24);display:flex;align-items:center;justify-content:center;padding:24px;margin:20px 0}
+.camera-corners{width:100%;height:100%;border:2px dashed rgba(255,255,255,.65);border-radius:14px;display:flex;align-items:center;justify-content:center}
+.camera-corners .receipt-paper{max-width:90%;flex-shrink:0}
+.upload-area{width:100%;min-height:290px;background:#f1f7ed;border:2px dashed #a7cdb0;border-radius:18px;margin:22px 0;padding:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.upload-icon{font-size:52px;color:#39865f;margin-bottom:12px}
+.upload-area h3{color:#234d36;font-size:16px;margin:8px 0}
+.upload-area p{font-size:13px;color:#829087}
+.uploaded-preview{width:100%;max-height:350px;object-fit:contain;border-radius:12px}
+
+/* Local account forms */
+.auth-check{display:flex;align-items:center;gap:9px;font-size:12px;color:#657967;margin:8px 0 18px}.auth-check input{accent-color:#2d865e}.auth-error{padding:11px 13px;border-radius:10px;color:#9f2828;background:#fff0ef;border:1px solid #f2c5c3;font-size:12px;margin:12px 0}.auth-error[hidden]{display:none}.top-actions{display:flex;gap:8px}.account-button{border:0;background:#e7f1e7;color:#39865f;border-radius:100%;height:39px;width:39px;font-size:20px}#login-form .field,#signup-form .field{margin:13px 0}.login-art{height:125px;font-size:70px;margin-bottom:10px}
+
+/* Flow clarity and dynamic inventory updates */
+.action-caption{font-size:11px;color:#6a8573;text-align:right;margin:-12px 0 7px}.ingredient-state{margin-left:auto;font-size:11px;color:#3e8b60}.ingredient-state.missing{color:#ad6e35}.nav .symbol{font-size:22px}.top-actions{display:flex;gap:7px}.top-actions button{display:grid;place-items:center;font-size:17px}.empty{line-height:1.7}.notice{cursor:default}button.notice{cursor:pointer}
+
+/* Three-tab navigation and clearer Add Food CTA */
+.nav{padding:9px 12px 13px;gap:8px}
+.nav button{font-size:12px;gap:5px;min-width:0;border-radius:12px}
+.nav .symbol{display:flex;align-items:center;justify-content:center;height:30px}
+.nav .symbol svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.nav button.active .symbol svg{stroke-width:2.4}
+.add-food-hero{min-height:72px;padding:14px 16px;justify-content:flex-start;gap:13px;background:linear-gradient(120deg,#247f57,#31996c);border-radius:16px;box-shadow:0 8px 20px #226e4b35;letter-spacing:.1px;text-align:left}
+.add-food-hero:hover{filter:brightness(1.06);transform:translateY(-1px)}
+.add-food-hero .add-hero-icon{display:grid;place-items:center;width:40px;height:40px;flex:none;background:#ffffff24;border:1px solid #ffffff55;border-radius:12px;font-size:29px;line-height:1}
+.add-food-hero strong{display:block;font-size:17px;line-height:1.4}
+.add-food-hero small{display:block;font-size:11px;font-weight:500;opacity:.91;margin-top:3px}
+.add-food-hero .add-hero-arrow{margin-left:auto;font-size:21px}
+
+/* Best-before states: red card only after date; yellow text within chosen lead days. */
+.food.food-past{background:#fff3f1;border:1px solid #e8c5c0;border-left:5px solid #bd4438;padding-left:9px;}
+.food.food-past .food-icon{background:#fde8e4;}
+.food-date{display:block;font-size:12px;line-height:1.45;color:#88958a;font-weight:500;}
+.food-date.food-date-past,.detail-date.food-date-past{color:#b83c32;font-weight:750;}
+.food-date.food-date-soon,.detail-date.food-date-soon{color:#ad770c;font-weight:750;}
+
+/* Compact combined action icons and captions in one accessible tap target */
+.topline{align-items:flex-start;gap:8px}
+.topline>div:first-child{min-width:0;flex:1}
+.topline h1{font-size:26px}
+.top-actions{display:flex;align-items:flex-start;gap:7px;flex-shrink:0}
+.top-actions .top-action-button{
+  background:#e7f1e7;border:1px solid #d2e6d3;color:#267650;
+  border-radius:13px;min-width:63px;height:57px;padding:5px 6px;
+  display:flex;flex-direction:column;justify-content:center;align-items:center;gap:2px;
+  box-sizing:border-box;line-height:1;
+}
+.top-actions .top-action-icon{font-size:19px;line-height:24px}
+.top-actions .top-action-label{font-size:10px;font-weight:650;letter-spacing:-.1px;line-height:13px}
+.top-actions .top-action-button:focus-visible{outline:2px solid #267650;outline-offset:2px}
+
+/* Back navigation stays above the independently scrolling screen */
+.backbar{flex:none;background:#fbfcf8;padding:11px 24px 0;min-height:42px;display:flex;align-items:center;z-index:2}
+.backbar[hidden]{display:none}
+.backbar .back{padding:6px 0 10px;min-height:32px}
+
+/* Swipe actions for Food */
+.food-swipe{position:relative;overflow:hidden;border-radius:15px;margin:10px 0;touch-action:pan-y}.food-swipe .food{margin:0;position:relative}.food-swipe-content{position:relative;transform:translateX(0);transition:transform .18s ease;z-index:1;background:white}.food-swipe.swiped .food-swipe-content{transform:translateX(-92px)}.food-swipe-actions{position:absolute;right:0;top:0;bottom:0;width:92px;background:#ba4140;display:flex;align-items:stretch}.swipe-delete{width:100%;background:#ba4140;color:white;border:0;font-size:13px;font-weight:700}.modal-cover[hidden]{display:none}.modal-cover{position:fixed;inset:0;background:#14271c88;z-index:30;display:grid;place-items:center;padding:20px}.modal-card{background:white;border-radius:22px;padding:25px 22px;max-width:340px;width:100%;text-align:center;box-shadow:0 14px 50px #0002}.modal-card h2{margin:8px 0}.modal-card p{font-size:13px;color:#647266;line-height:1.55}.modal-symbol{font-size:38px}.modal-buttons{display:flex;gap:10px;margin-top:18px}.modal-buttons button{flex:1;margin:0;min-height:46px;border-radius:10px}.danger-button{background:#ba4140;border:0;color:white;font-weight:700}.unknown-check{display:flex;align-items:center;gap:9px;margin:12px 0 3px;font-size:13px;color:#385943}.unknown-check input{accent-color:#2d865e;width:18px;height:18px}.purchase-card{margin-bottom:15px}
+
+/* Recipes for which every listed ingredient exists in Food */
+.recipe-ready-label{display:inline-flex;align-items:center;gap:5px;padding:7px 11px;margin-bottom:12px;background:#e3f4e5;color:#1e7441;border:1px solid #b7dfc2;border-radius:20px;font-size:12px;font-weight:750;line-height:1.3}
+.recipe-card.recipe-ready {
+  background: #E6F4E8;
+  border: 1.5px solid #67B783;
+  box-shadow: 0 4px 14px rgba(44, 131, 85, 0.12);
+}
+
+/* Ready to make label */
+.recipe-ready-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 11px;
+  margin-bottom: 12px;
+  background: #C5E9CF;
+  color: #176B3A;
+  border: 1px solid #91CCA3;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 750;
+}
+
+/* Green image area */
+.recipe-card.recipe-ready .recipe-art {
+  background: #D5EEDB;
+}

@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.local/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+*.log
+*.tsbuildinfo
+.DS_Store
+__MACOSX/

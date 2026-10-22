@@ -1,0 +1,13 @@
+{
+  "name": "freshloop-hci-case-study",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "node tests/syntax.cjs",
+    "test:browser": "node tests/browser.cjs",
+    "start": "node scripts/serve.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

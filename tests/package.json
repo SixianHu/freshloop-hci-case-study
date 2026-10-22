@@ -1,0 +1,11 @@
+{
+  "name": "freshloop-hci-case-study-browser-tests",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "playwright": "1.62.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
